@@ -1,21 +1,21 @@
 # 爱奇艺工作网络
 # 爱奇艺内网
-DOMAIN-KEYWORD,sso.qiyi,🌐直接链接
-DOMAIN-KEYWORD,sso.qiyi,🌐直接链接
-DOMAIN-KEYWORD,iqiyi,🌐直接链接
-DOMAIN-KEYWORD,qiyi,🌐直接链接
-DOMAIN-KEYWORD,domain,🌐直接链接
+DOMAIN-KEYWORD,sso.qiyi
+DOMAIN-KEYWORD,sso.qiyi
+DOMAIN-KEYWORD,iqiyi
+DOMAIN-KEYWORD,qiyi
+DOMAIN-KEYWORD,domain
 # 用户旅程平台
-DOMAIN-SUFFIX,journey.qiyi,🌐直接链接
-DOMAIN-KEYWORD,journey.qiyi,🌐直接链接
+DOMAIN-SUFFIX,journey.qiyi
+DOMAIN-KEYWORD,journey.qiyi
 # 北斗分析平台
-DOMAIN-SUFFIX,analytics.qiyi,🌐直接链接
-DOMAIN-KEYWORD,analytics.qiyi,🌐直接链接
+DOMAIN-SUFFIX,analytics.qiyi
+DOMAIN-KEYWORD,analytics.qiyi
 # 脸谱画像标签
-DOMAIN-SUFFIX,facebook.qiyi,🌐直接链接
-DOMAIN-KEYWORD,facebook.qiyi,🌐直接链接
+DOMAIN-SUFFIX,facebook.qiyi
+DOMAIN-KEYWORD,facebook.qiyi
 # 脸谱
-DOMAIN-KEYWORD,facebook.qiyi,🌐直接链接
-DOMAIN-SUFFIX,facebook.qiyi,🌐直接链接
+DOMAIN-KEYWORD,facebook.qiyi
+DOMAIN-SUFFIX,facebook.qiyi
 # 热聊
-PROCESS-NAME,/Applications/爱奇艺之家热聊.app/Contents/Frameworks/Reliao Helper.app/Contents/MacOS/Reliao Helper,🌐直接链接
+PROCESS-NAME,/Applications/爱奇艺之家热聊.app/Contents/Frameworks/Reliao Helper.app/Contents/MacOS/Reliao Helper

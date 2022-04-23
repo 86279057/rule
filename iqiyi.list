@@ -1,21 +1,24 @@
+#AND,((PROTOCOL,UDP),(DEST-PORT,443)),REJECT-NO-DROP 旧版本不支持该功能
 # 爱奇艺工作网络
 # 爱奇艺内网
-DOMAIN-KEYWORD,sso.qiyi
-DOMAIN-KEYWORD,sso.qiyi
+
+#办公关键词
+DOMAIN-KEYWORD,sso
 DOMAIN-KEYWORD,iqiyi
 DOMAIN-KEYWORD,qiyi
 DOMAIN-KEYWORD,domain
-# 用户旅程平台
-DOMAIN-SUFFIX,journey.qiyi
-DOMAIN-KEYWORD,journey.qiyi
+
+#用户旅程平台
+DOMAIN-KEYWORD,journey
+DOMAIN-KEYWORD,lvcheng
+
 # 北斗分析平台
 DOMAIN-SUFFIX,analytics.qiyi
-DOMAIN-KEYWORD,analytics.qiyi
-# 脸谱画像标签
+# 脸谱画像平台
 DOMAIN-SUFFIX,facebook.qiyi
-DOMAIN-KEYWORD,facebook.qiyi
-# 脸谱
-DOMAIN-KEYWORD,facebook.qiyi
-DOMAIN-SUFFIX,facebook.qiyi
-# 热聊
+
+
+# mac客户端热聊
 PROCESS-NAME,/Applications/爱奇艺之家热聊.app/Contents/Frameworks/Reliao Helper.app/Contents/MacOS/Reliao Helper
+# iOS客户端热聊
+USER-AGENT,reliao
